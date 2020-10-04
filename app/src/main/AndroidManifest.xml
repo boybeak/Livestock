@@ -9,11 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".onepixel.OnePixelActivity"></activity>
-
+        <activity android:name=".onepixel.OnePixelActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.github.boybeak.livestock.onepixel"
+            android:theme="@style/OnePixelTheme"
+            />
+        <!--
+        -->
         <service
             android:name=".onepixel.OnePixelService"
-            android:enabled="false"
+            android:enabled="true"
             android:exported="false" />
 
         <activity android:name=".MainActivity">
