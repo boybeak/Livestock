@@ -15,5 +15,18 @@
         android:text="One Pixel"
         android:onClick="startOnePixel"
         />
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/accountSyncBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Sync"
+        android:onClick="startAccountSync"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/doSyncBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="do Sync"
+        android:onClick="doSyncAccount"
+        />
 </androidx.appcompat.widget.LinearLayoutCompat>
